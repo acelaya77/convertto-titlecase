@@ -9,6 +9,8 @@ NOTES...........:
 
 Function ConvertTo-TitleCase(){
 [CmdletBinding()]
+[Alias("title")]
+
 Param(
     [string]$string
 )
