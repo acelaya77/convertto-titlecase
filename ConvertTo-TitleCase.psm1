@@ -12,6 +12,7 @@ Function ConvertTo-TitleCase(){
 [Alias("title")]
 
 Param(
+    [Parameter(ValueFromPipeline=$true)]
     [string]$string
 )
 
